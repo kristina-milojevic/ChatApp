@@ -6,7 +6,12 @@ body{
 height: 100%;
 }
 #root {
-  background-color: #f0f0f0;
+  background-color: radial-gradient(
+    ellipse at left bottom,
+    #5e2170 10%,
+    #b32bd9 50%,
+    #6c038a 100%
+    );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +20,7 @@ height: 100%;
 ._main {
   max-width: 90%;
   margin: auto;
-  background-color: #fff;
+  background-color: #940cb3;
   min-height: 80vh;
   width: 100%;
   border-radius: 10px;
@@ -26,7 +31,12 @@ height: 100%;
 .__main {
   max-width: 90%;
   margin: auto;
-  background-color: #fff;
+  background: radial-gradient(
+    ellipse at left bottom,
+    #5e2170 10%,
+    #b32bd9 50%,
+    #6c038a 100%
+    );
   min-height: 80vh;
   width: 100%;
   border-radius: 10px;

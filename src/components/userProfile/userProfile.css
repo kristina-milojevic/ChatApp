@@ -6,7 +6,8 @@
     position: relative;
   }
   .profile__card {
-    background-color: #fff;
+    background-color:#bc2dd6;
+    border-color: #26092b;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -29,6 +30,7 @@
   }
   .profile__card.user__profile__image {
     padding: 20px 20px;
+    
   }
   .profile__card .profile__image {
     width: 100px;
@@ -46,7 +48,7 @@
   .profile__card p {
     margin-top: 10px;
     font-size: 14px;
-    color: #acb3b9;
+    color: #f7c7ff;
   }
   .profile__card .card__header {
     display: flex;
@@ -67,7 +69,8 @@
     overflow: auto;
     width: 100%;
     padding: 15px 20px;
-    color: #6d6a6a;
+    background-color: #d751f0;
+    color: #f7c7ff;
     font-size: 14px;
     display: none;
     transform-origin: top;
